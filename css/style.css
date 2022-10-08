@@ -1,10 +1,7 @@
-@import url('https://fonts.google.com/specimen/Outfit');
 body {
     width: 1440px;
-    margin: 0;
-    height: 100vh;
     background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', Medium 400, 700;
+    font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 
@@ -17,7 +14,8 @@ body {
     border-bottom-width: 20px;
     border-color:white;
     border-radius: 15px;
-    margin: 100px 575px 15px 575px;
+    margin: 100px 560px 15px 560px;
+    text-align: center;
 }
 
 img {
@@ -29,11 +27,13 @@ img {
 
 h2{
     color: hsl(218, 44%, 22%);
+    font-weight: 700;
 }
 
 p{
     font-size: 15px;
     color:  hsl(220, 15%, 55%);
+    font-weight: 400;
 }
 
 .attribution { 
